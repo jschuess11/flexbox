@@ -12,4 +12,27 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
-
+.flex-container{
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: flex-start;
+    height: 800px;
+}
+.box{
+    height: 100px;
+    flex: 0 0 200px;
+}
+.one {
+    background: red;
+    
+}
+.two {
+    background: blue;
+    
+}
+.three {
+    background: green;
+    
+}
